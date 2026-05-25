@@ -27,7 +27,7 @@ const stats = [
 ];
 
 export default function About() {
-  const { ref: statsRef, inView: statsInView } = useInView(0.2);
+  const { ref: statsRef, inView: statsInView } = useInView(0.1);
 
   return (
     <section className="about" id="about">

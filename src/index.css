@@ -836,6 +836,31 @@ section { padding: 100px 0; }
   .navbar-links { display: none; }
 }
 
+.hero-avatar-mobile-wrap {
+  display: none;
+  position: relative;
+  width: 160px;
+  height: 160px;
+  margin: 36px auto 72px;
+}
+
+.hero-avatar-mobile-wrap .hero-avatar-inner {
+  width: 160px;
+  height: 160px;
+}
+
+.hero-avatar-mobile-wrap .hero-avatar-ring {
+  inset: -10px;
+}
+
+.hero-avatar-mobile-wrap .hero-float-badge {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .hero-avatar-mobile-wrap { display: block; }
+}
+
 @media (max-width: 600px) {
   .form-row { grid-template-columns: 1fr; }
   .about-stats { grid-template-columns: 1fr 1fr; }

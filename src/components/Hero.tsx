@@ -43,6 +43,25 @@ export default function Hero() {
               Passionate about clean APIs, great user experiences, and real-world impact.
             </p>
 
+            <div className="hero-avatar-mobile-wrap">
+              <div className="hero-avatar-ring" />
+              <div className="hero-avatar-inner">
+                <img src="/profile.jpg" alt="Paulson Varghese" className="hero-avatar-photo" />
+              </div>
+              <div className="hero-float-badge hero-float-badge-1">
+                <span style={{ fontSize: '0.9rem' }}>⚡</span>
+                TypeScript · React
+              </div>
+              <div className="hero-float-badge hero-float-badge-2">
+                <span style={{ fontSize: '0.9rem' }}>🚀</span>
+                4+ Years Exp.
+              </div>
+              <div className="hero-float-badge hero-float-badge-3">
+                <span style={{ fontSize: '0.9rem' }}>🌍</span>
+                Germany
+              </div>
+            </div>
+
             <div className="hero-actions">
               <a href="#contact" className="btn btn-primary">
                 Get in Touch <FiArrowRight />
@@ -53,10 +72,10 @@ export default function Hero() {
             </div>
 
             <div className="hero-socials">
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="hero-social-link" title="GitHub">
+              <a href="https://github.com/paulsonvargehese" target="_blank" rel="noreferrer" className="hero-social-link" title="GitHub">
                 <FiGithub />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hero-social-link" title="LinkedIn">
+              <a href="https://www.linkedin.com/in/paulson-varghese-158027184/" target="_blank" rel="noreferrer" className="hero-social-link" title="LinkedIn">
                 <FiLinkedin />
               </a>
               <a href="mailto:paulsonvargehese@gmail.com" className="hero-social-link" title="Email">

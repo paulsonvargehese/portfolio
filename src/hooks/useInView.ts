@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 
-export function useInView(threshold = 0.12) {
+export function useInView(threshold = 0.05) {
   const ref = useRef<HTMLDivElement>(null);
   const [inView, setInView] = useState(false);
 
@@ -14,7 +14,7 @@ export function useInView(threshold = 0.12) {
           obs.unobserve(el);
         }
       },
-      { threshold }
+      { threshold, rootMargin: '0px 0px 80px 0px' }
     );
     obs.observe(el);
     return () => obs.disconnect();

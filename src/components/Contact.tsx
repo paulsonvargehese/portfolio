@@ -81,7 +81,7 @@ export default function Contact() {
               </p>
               <div style={{ display: 'flex', gap: '12px' }}>
                 <a
-                  href="https://github.com/paulsonvarghese"
+                  href="https://github.com/paulsonvargehese"
                   target="_blank" rel="noreferrer"
                   className="hero-social-link"
                   title="GitHub"
@@ -89,7 +89,7 @@ export default function Contact() {
                   <FiGithub />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/paulson-varghese"
+                  href="https://www.linkedin.com/in/paulson-varghese-158027184/"
                   target="_blank" rel="noreferrer"
                   className="contact-linkedin-btn"
                   title="Message on LinkedIn"

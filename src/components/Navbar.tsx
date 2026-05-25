@@ -32,10 +32,10 @@ export default function Navbar() {
       </ul>
 
       <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-        <a href="https://github.com" target="_blank" rel="noreferrer" className="hero-social-link">
+        <a href="https://github.com/paulsonvargehese" target="_blank" rel="noreferrer" className="hero-social-link">
           <FiGithub />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hero-social-link">
+        <a href="https://www.linkedin.com/in/paulson-varghese-158027184/" target="_blank" rel="noreferrer" className="hero-social-link">
           <FiLinkedin />
         </a>
         <a href="mailto:paulsonvargehese@gmail.com" className="btn btn-primary" style={{ padding: '9px 22px', fontSize: '0.85rem' }}>
